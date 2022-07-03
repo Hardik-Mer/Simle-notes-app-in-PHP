@@ -1,0 +1,193 @@
+
+body {
+    margin: 0px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: white;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    word-spacing: 1px;
+    font-family: 'Arial Rounded MT';
+    color: blue;
+    margin-bottom: 50px;
+}
+
+.form {
+    margin-top:10px;
+    margin-bottom: 35px;
+    align-items: center;
+    justify-items: center;
+}
+
+form {
+    margin-top:10px;
+    width: 70%;
+    padding: 0px 15%;
+}
+
+form h2 {
+    font-family: 'calibri';
+    font-size: 41px;
+    word-spacing: 2px;
+    margin: 10px 0px 12px 0px;
+    opacity: 80%;
+    font-weight: 600;
+}
+
+form label {
+    font-size: 21px;
+    font-family: 'calibri';
+    margin-top: 6px;
+    margin-bottom: 6px;
+    opacity: 90%;
+    font-weight: 10px;
+}
+
+form input[type=text] {
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #c0c2cc;
+    margin-top: 11px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    padding-left: 6px;
+    font-family: 'calibri';
+}
+
+form textarea {
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: solid 1px #c0c2cc;
+    margin-top: 11px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding-left: 6px;
+    font-family: 'calibri';
+}
+
+form input[type=submit] {
+    background-color: #2368ff;
+    border: none;
+    outline: none;
+    font-family: 'Calibri';
+    font-size: 23px;
+    color: white;
+    border-radius: 6px;
+    height: 40px;
+    width: 80px;
+} 
+
+form input[type=submit]:hover {
+    background-color: #1f1fff;
+}
+
+form input[type=submit]:focus {
+    box-shadow: 0px 0px 0px 4px  #36a7f3;
+}
+
+.edit {
+    background-color: #2368ff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Calibri';
+    font-size: 17px;
+    color: white;
+    border-radius: 3px;
+    padding:5px 10px;
+} 
+
+.edit:hover {
+    background-color: #1f1fff;
+}
+
+.edit:focus {
+    box-shadow: 0px 0px 0px 4px  #36a7f3;
+}
+
+.delete {
+    background-color: #2368ff;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Calibri';
+    font-size: 17px;
+    color: white;
+    border-radius: 3px;
+    padding:5px 10px;
+} 
+
+.delete:hover {
+    background-color: #1f1fff;
+}
+
+.delete:focus {
+    box-shadow: 0px 0px 0px 4px  #36a7f3;
+}
+
+.table {
+    width: 70%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    margin-top: 20px;
+}
+
+.table .tbl {
+    width: 100%;
+    border-bottom: solid 2px white;
+    margin-bottom: 30px;
+}
+
+tr th {
+border-bottom: solid 2px white;
+font-family: 'Arial';
+font-size: 20px;
+padding: 12px;
+} 
+
+tr td {
+border-bottom: solid 1px #c0c2cc;
+font-size: 18px;
+font-family: 'Arial';
+padding: 10px;
+} 
+
+td b {
+    padding-left: 10px;
+}
+
+.bttn{
+    padding: 9px 10px;
+}
+
+.tsno {
+    width: 52px;
+}
+
+.ttitle {
+    width: 17%;
+}
+
+.taction {
+    width: 120px;
+}
+
+.pre-desc {
+    margin: 0px;
+    font-family: 'calibri';
+    font-size: 21px;
+}
+
+
+/* @media screen and (min-width: 970px)
+{
+    body { background-color: orange; }
+} */
